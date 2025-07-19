@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Boda - Perla & Carlos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap');
+
+        body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        }
+
+        header {
+            background-image: url('https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            color: white;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+
+        .section {
+            padding: 40px 20px;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            color: #5D4037;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .names {
+            font-family: 'Playfair Display', serif;
+            font-size: 2em;
+            font-weight: 700;
+            margin: 20px 0;
+        }
+
+        .parents-godparents {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .parents-godparents div {
+            flex-basis: 45%;
+            margin-bottom: 20px;
+        }
+
+        .parents-godparents h3 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            color: #5D4037;
+        }
+
+        .event-details {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .event-details div {
+            flex-basis: 45%;
+            margin-bottom: 20px;
+        }
+        
+        .event-icon {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #8D6E63;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #5D4037;
+        }
+        
+        .instagram-section {
+            background-color: #EFEBE9;
+            padding: 40px 20px;
+        }
+        
+        .instagram-section a {
+            font-size: 1.2em;
+            color: #333;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .instagram-section a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(93, 64, 55, 0.75), rgba(0, 0, 0, 0));
+            margin: 40px 0;
+        }
+
+        footer {
+            padding: 20px;
+            background-color: #3E2723;
+            color: white;
+        }
+
+        /* --- Estilos para Responsividad --- */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 3em;
+            }
+
+            header p {
+                font-size: 1.2em;
+            }
+
+            h2 {
+                font-size: 2em;
+            }
+
+            .parents-godparents div,
+            .event-details div {
+                flex-basis: 100%; /* Los elementos ocupan todo el ancho */
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                padding: 60px 15px;
+            }
+            
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            .section {
+                padding: 30px 15px;
+            }
+
+            .names {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            .btn {
+                padding: 12px 25px;
+                font-size: 1em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <p>NOS CASAMOS</p>
+            <h1>Perla & Carlos</h1>
+            <p>15 de Noviembre de 2025</p>
+        </header>
+
+        <section class="section">
+            <p>Con la bendición de Dios y la de nuestros padres, tenemos el honor de invitarlos a celebrar nuestra unión.</p>
+            
+            <div class="names">
+                Perla Guadalupe Negrete Angeles<br>
+                &<br>
+                Carlos Alberto Felipe Aguilar
+            </div>
+
+            <div class="parents-godparents">
+                <div>
+                    <h3>Papás de la Novia</h3>
+                    <p>Jorge Negrete Monterrubio<br>Maria Verenice Angeles Doroteo</p>
+                </div>
+                <div>
+                    <h3>Papás del Novio</h3>
+                    <p>Juan Carlos Felipe Encarnación<br>Azucena Aguilar González</p>
+                </div>
+                 <div>
+                    <h3>Nuestros Padrinos</h3>
+                    <p>David Samaniego<br>Remedios</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="section">
+            <h2>Ceremonia y Recepción</h2>
+            <div class="event-details">
+                <div>
+                    <img src="https://images.pexels.com/photos/5407073/pexels-photo-5407073.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Anillos de boda" class="event-icon">
+                    <h3>Ceremonia Religiosa</h3>
+                    <p><strong>Hora:</strong> 11:00 am</p>
+                    <p>Parroquia Santa Cruz Atizapán</p>
+                </div>
+                <div>
+                    <img src="https://images.pexels.com/photos/2253832/pexels-photo-2253832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Firma de acta" class="event-icon">
+                    <h3>Boda Civil y Recepción</h3>
+                    <p><strong>Boda Civil:</strong> 3:00 pm</p>
+                    <p>Avenida Solidaridad s/n, Santa Cruz Atizapán</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="section">
+            <h2>Cómo Llegar</h2>
+            <p>Tu presencia es nuestro mejor regalo, pero si deseas llevarnos a la recepción, aquí te dejamos la dirección.</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Avenida+Solidaridad+s/n+Santa+cruz+Atizapán" class="btn" target="_blank">Ver en Google Maps</a>
+        </section>
+        
+        <section class="instagram-section">
+            <h2>¡Comparte tus fotos! 📸</h2>
+            <p>Ayúdanos a capturar cada momento. Sube tus fotos y videos a Instagram con nuestro hashtag.</p>
+            <a href="https://www.instagram.com/explore/tags/BodaPerlaYCarlos/" target="_blank">#BodaPerlaYCarlos</a>
+        </section>
+
+        <footer>
+            <p>¡Te esperamos!</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
